@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "title": "HOME",
+            "url": "/"
+        },
+        {
+            "title": "BREWS",
+            "url": "/"
+        },
+        {
+            "title": "CUSTOM POTIONS",
+            "url": "/"
+        },
+        {
+            "title": "ABOUT US",
+            "url": "/about"
+        },
+        {
+            "title": "GRAPHIC PROFILE",
+            "url": "/"
+        }
+    ]
+}

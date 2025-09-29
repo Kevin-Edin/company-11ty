@@ -1,0 +1,237 @@
+.navigation
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1.8rem;
+    background-color: rgb(25, 25, 25);
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+}
+
+.navlink
+{
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.navimage {
+    display: flex;
+    width: 5rem;
+    height: 3.2rem;
+    max-width: 5rem;
+    max-height: 3.2rem;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 1rem;
+    margin-right: -1rem;
+}
+
+.hero
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 30rem;
+    max-height: 30rem;
+    background-color: darkgreen;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.herohead
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 10rem;
+    max-height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -2rem;
+}
+
+.heroheadtext
+{
+    padding: 0;
+    margin: 0;
+    font-size: 4em;
+    font-style: italic;
+    text-decoration: underline; 
+    color: whitesmoke;
+}
+
+.drinkhead
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drinklist
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 10rem;
+    max-height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.drinkcard {
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drinkcardimage {
+    max-width: 14rem;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.drinkcardheadtext {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.7rem;
+    height: 0.2rem;
+    margin-top: 0.6rem;
+}
+
+.drinkcardtext {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 0;
+    font-weight: normal;
+    font-size: 2rem;
+    height: 0.2rem;
+    margin-top: 1rem;
+}
+
+.mainbody
+{
+    height: 50rem;
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainbodyheader
+{
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: -12rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    font-style: normal;
+    text-decoration: none; 
+    color: whitesmoke;
+}
+
+.aboutusbody
+{
+    min-height: 63rem;
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.aboutusheader
+{
+    padding: 0;
+    margin-top: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    font-style: normal;
+    text-decoration: none; 
+    color: whitesmoke; 
+}
+
+.aboutustext
+{
+    padding: 0;
+    margin-top: 0;
+    max-width: 80ch;
+    word-wrap: break-word;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-style: normal;
+    text-decoration: none; 
+    color: whitesmoke; 
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.footer
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 4rem;
+    max-height: 4rem;
+    background-color: rgb(42, 82, 100);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footerhead
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footerheadtext
+{
+    padding: 0;
+    margin: 0;
+    font-size: 2em;
+    color: whitesmoke;
+}

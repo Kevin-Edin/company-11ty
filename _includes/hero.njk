@@ -1,0 +1,16 @@
+<div class="hero">
+    <div class="herohead">
+        <p class="heroheadtext">Todays Deals</p>
+    </div>
+    <div class="drinkhead">
+        <ul class="drinklist">
+            {%- for item in hero.items -%}
+            <li class="drinkcard">
+                <img class="drinkcardimage" src="/img/{{ item.picture }}" alt="bild">
+                <p class="drinkcardheadtext">{{ item.title }}</p>
+                <p class="drinkcardtext">{{ item.price }}</p>
+            </li>
+            {%- endfor -%}
+        </ul>
+    </div>
+</div>

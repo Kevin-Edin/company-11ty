@@ -1,0 +1,29 @@
+{
+    "items": [
+        {
+            "picture": "liten.png",
+            "title": "Witches Brew",
+            "price": "24 kr"
+        },
+        {
+            "picture": "liten.png",
+            "title": "Enchanted Cola",
+            "price": "24 kr"
+        },
+        {
+            "picture": "liten.png",
+            "title": "Gramps Old Brew",
+            "price": "29 kr"
+        },
+        {
+            "picture": "liten.png",
+            "title": "Mystical Dew",
+            "price": "24 kr"
+        },
+        {
+            "picture": "liten.png",
+            "title": "Fantasy Fanta",
+            "price": "24 kr"
+        }
+    ]
+}

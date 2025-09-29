@@ -1,0 +1,8 @@
+<nav>
+    <ul class="navigation">
+    <li><a class="navimage" href="/"><img src="/img/witch_brew_logo_bright.svg" alt="LOGO"></a></li>
+    {% for item in navigation.items %}
+        <li><a class="navlink" href={{item.url}}>{{item.title}}</a></li>
+    {% endfor %}
+    </ul>
+</nav>
