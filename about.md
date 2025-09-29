@@ -3,4 +3,4 @@ layout: layout.html
 title: Om oss
 ---
 
-{% include "aboutus.njk" %}
+{% include "about_us.njk" %}
