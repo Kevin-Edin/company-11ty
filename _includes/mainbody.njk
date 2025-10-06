@@ -2,10 +2,10 @@
     <h2 class="mainbodyheader">Popular Brews</h2>
     <div class="drinkhead">
         <ul class="drinklist">
-            {%- for item in hero.items -%}
+            {%- for item in brews.items -%}
             <li class="drinkcard">
                 <img class="drinkcardimage" src="/img/{{ item.picture }}" alt="bild">
-                <p class="drinkcardheadtext">{{ item.title }}</p>
+                <p class="drinkcardheadtext">{{ item.brewname }}</p>
                 <p class="drinkcardtext">{{ item.price }}</p>
             </li>
             {%- endfor -%}

@@ -1,0 +1,44 @@
+{
+    "items": [
+        {
+            "id": "1",
+            "brewname": "Witches Brew",
+            "price": "24 kr",
+            "picture": "liten.png",
+            "picture2": "liten.png",
+            "picture3": "liten.png"
+        },
+        {
+            "id": "2",
+            "brewname": "Enchanted Cola",
+            "price": "24 kr",
+            "picture": "liten.png",
+            "picture2": "liten.png",
+            "picture3": "liten.png"
+        },
+        {
+            "id": "3",
+            "brewname": "Gramps Old Brew",
+            "price": "29 kr",
+            "picture": "liten.png",
+            "picture2": "liten.png",
+            "picture3": "liten.png"
+        },
+        {
+            "id": "4",
+            "brewname": "Mystical Dew",
+            "price": "24 kr",
+            "picture": "liten.png",
+            "picture2": "liten.png",
+            "picture3": "liten.png"
+        },
+        {
+            "id": "5",
+            "brewname": "Fantasy Fanta",
+            "price": "24 kr",
+            "picture": "liten.png",
+            "picture2": "liten.png",
+            "picture3": "liten.png"
+        }
+    ]
+}
